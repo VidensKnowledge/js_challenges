@@ -11,8 +11,20 @@ alphArr = alphStr.split("");
 console.log(alphArr);
 console.log(alphArr.indexOf("a"));
 
+//because each letter now has an array index, they are properly valued.
+
+// Now I need to pass a string to the function and have it output the string in its ordered value
+
+
 function alphabetSoup(str) {
-  alphArr.foreach
+  inputStr = "yellow pillow";
+  // get input string letters and assign it to index of alphStr
+  inputArr = inputStr.split("");
+  inputArr.sort();
+  inputArr.join();
+  
+
 
 
 }
+// console.log("please enter a string:");
